@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEFFF3611A9E8A0D00E48B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFF3601A9E8A0D00E48B77 /* AppDelegate.swift */; };
+		DEFFF3641A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEFFF3621A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodeld */; };
+		DEFFF3661A9E8A0D00E48B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFF3651A9E8A0D00E48B77 /* ViewController.swift */; };
+		DEFFF3691A9E8A0D00E48B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFFF3671A9E8A0D00E48B77 /* Main.storyboard */; };
+		DEFFF36B1A9E8A0D00E48B77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFFF36A1A9E8A0D00E48B77 /* Images.xcassets */; };
+		DEFFF36E1A9E8A0D00E48B77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFFF36C1A9E8A0D00E48B77 /* LaunchScreen.xib */; };
+		DEFFF37A1A9E8A0D00E48B77 /* ChangeMyPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFF3791A9E8A0D00E48B77 /* ChangeMyPicTests.swift */; };
+		DEFFF3841A9E8B1000E48B77 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFF3831A9E8B1000E48B77 /* SignInViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEFFF3741A9E8A0D00E48B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEFFF3531A9E8A0D00E48B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEFFF35A1A9E8A0D00E48B77;
+			remoteInfo = ChangeMyPic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEFFF35B1A9E8A0D00E48B77 /* ChangeMyPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeMyPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFFF35F1A9E8A0D00E48B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFFF3601A9E8A0D00E48B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEFFF3631A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChangeMyPic.xcdatamodel; sourceTree = "<group>"; };
+		DEFFF3651A9E8A0D00E48B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEFFF3681A9E8A0D00E48B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEFFF36A1A9E8A0D00E48B77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEFFF36D1A9E8A0D00E48B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEFFF3731A9E8A0D00E48B77 /* ChangeMyPicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeMyPicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFFF3781A9E8A0D00E48B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFFF3791A9E8A0D00E48B77 /* ChangeMyPicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMyPicTests.swift; sourceTree = "<group>"; };
+		DEFFF3831A9E8B1000E48B77 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEFFF3581A9E8A0D00E48B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFFF3701A9E8A0D00E48B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEFFF3521A9E8A0D00E48B77 = {
+			isa = PBXGroup;
+			children = (
+				DEFFF35D1A9E8A0D00E48B77 /* ChangeMyPic */,
+				DEFFF3761A9E8A0D00E48B77 /* ChangeMyPicTests */,
+				DEFFF35C1A9E8A0D00E48B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEFFF35C1A9E8A0D00E48B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFF35B1A9E8A0D00E48B77 /* ChangeMyPic.app */,
+				DEFFF3731A9E8A0D00E48B77 /* ChangeMyPicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEFFF35D1A9E8A0D00E48B77 /* ChangeMyPic */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFF3601A9E8A0D00E48B77 /* AppDelegate.swift */,
+				DEFFF3651A9E8A0D00E48B77 /* ViewController.swift */,
+				DEFFF3831A9E8B1000E48B77 /* SignInViewController.swift */,
+				DEFFF3671A9E8A0D00E48B77 /* Main.storyboard */,
+				DEFFF36A1A9E8A0D00E48B77 /* Images.xcassets */,
+				DEFFF36C1A9E8A0D00E48B77 /* LaunchScreen.xib */,
+				DEFFF3621A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodeld */,
+				DEFFF35E1A9E8A0D00E48B77 /* Supporting Files */,
+			);
+			path = ChangeMyPic;
+			sourceTree = "<group>";
+		};
+		DEFFF35E1A9E8A0D00E48B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFF35F1A9E8A0D00E48B77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEFFF3761A9E8A0D00E48B77 /* ChangeMyPicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFF3791A9E8A0D00E48B77 /* ChangeMyPicTests.swift */,
+				DEFFF3771A9E8A0D00E48B77 /* Supporting Files */,
+			);
+			path = ChangeMyPicTests;
+			sourceTree = "<group>";
+		};
+		DEFFF3771A9E8A0D00E48B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFF3781A9E8A0D00E48B77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEFFF35A1A9E8A0D00E48B77 /* ChangeMyPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFFF37D1A9E8A0D00E48B77 /* Build configuration list for PBXNativeTarget "ChangeMyPic" */;
+			buildPhases = (
+				DEFFF3571A9E8A0D00E48B77 /* Sources */,
+				DEFFF3581A9E8A0D00E48B77 /* Frameworks */,
+				DEFFF3591A9E8A0D00E48B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeMyPic;
+			productName = ChangeMyPic;
+			productReference = DEFFF35B1A9E8A0D00E48B77 /* ChangeMyPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEFFF3721A9E8A0D00E48B77 /* ChangeMyPicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFFF3801A9E8A0D00E48B77 /* Build configuration list for PBXNativeTarget "ChangeMyPicTests" */;
+			buildPhases = (
+				DEFFF36F1A9E8A0D00E48B77 /* Sources */,
+				DEFFF3701A9E8A0D00E48B77 /* Frameworks */,
+				DEFFF3711A9E8A0D00E48B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEFFF3751A9E8A0D00E48B77 /* PBXTargetDependency */,
+			);
+			name = ChangeMyPicTests;
+			productName = ChangeMyPicTests;
+			productReference = DEFFF3731A9E8A0D00E48B77 /* ChangeMyPicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEFFF3531A9E8A0D00E48B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Merritte;
+				TargetAttributes = {
+					DEFFF35A1A9E8A0D00E48B77 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DEFFF3721A9E8A0D00E48B77 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DEFFF35A1A9E8A0D00E48B77;
+					};
+				};
+			};
+			buildConfigurationList = DEFFF3561A9E8A0D00E48B77 /* Build configuration list for PBXProject "ChangeMyPic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEFFF3521A9E8A0D00E48B77;
+			productRefGroup = DEFFF35C1A9E8A0D00E48B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEFFF35A1A9E8A0D00E48B77 /* ChangeMyPic */,
+				DEFFF3721A9E8A0D00E48B77 /* ChangeMyPicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEFFF3591A9E8A0D00E48B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFFF3691A9E8A0D00E48B77 /* Main.storyboard in Resources */,
+				DEFFF36E1A9E8A0D00E48B77 /* LaunchScreen.xib in Resources */,
+				DEFFF36B1A9E8A0D00E48B77 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFFF3711A9E8A0D00E48B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEFFF3571A9E8A0D00E48B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFFF3841A9E8B1000E48B77 /* SignInViewController.swift in Sources */,
+				DEFFF3661A9E8A0D00E48B77 /* ViewController.swift in Sources */,
+				DEFFF3641A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodeld in Sources */,
+				DEFFF3611A9E8A0D00E48B77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFFF36F1A9E8A0D00E48B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFFF37A1A9E8A0D00E48B77 /* ChangeMyPicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEFFF3751A9E8A0D00E48B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEFFF35A1A9E8A0D00E48B77 /* ChangeMyPic */;
+			targetProxy = DEFFF3741A9E8A0D00E48B77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEFFF3671A9E8A0D00E48B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFFF3681A9E8A0D00E48B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEFFF36C1A9E8A0D00E48B77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFFF36D1A9E8A0D00E48B77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEFFF37B1A9E8A0D00E48B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEFFF37C1A9E8A0D00E48B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEFFF37E1A9E8A0D00E48B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeMyPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEFFF37F1A9E8A0D00E48B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeMyPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEFFF3811A9E8A0D00E48B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChangeMyPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeMyPic.app/ChangeMyPic";
+			};
+			name = Debug;
+		};
+		DEFFF3821A9E8A0D00E48B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChangeMyPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeMyPic.app/ChangeMyPic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEFFF3561A9E8A0D00E48B77 /* Build configuration list for PBXProject "ChangeMyPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFFF37B1A9E8A0D00E48B77 /* Debug */,
+				DEFFF37C1A9E8A0D00E48B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFFF37D1A9E8A0D00E48B77 /* Build configuration list for PBXNativeTarget "ChangeMyPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFFF37E1A9E8A0D00E48B77 /* Debug */,
+				DEFFF37F1A9E8A0D00E48B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEFFF3801A9E8A0D00E48B77 /* Build configuration list for PBXNativeTarget "ChangeMyPicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFFF3811A9E8A0D00E48B77 /* Debug */,
+				DEFFF3821A9E8A0D00E48B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEFFF3621A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEFFF3631A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodel */,
+			);
+			currentVersion = DEFFF3631A9E8A0D00E48B77 /* ChangeMyPic.xcdatamodel */;
+			path = ChangeMyPic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEFFF3531A9E8A0D00E48B77 /* Project object */;
+}
